@@ -1,5 +1,6 @@
 import "./Home.css"
 import { FaArrowRight, FaArrowDown, FaArrowUp} from "react-icons/fa6"
+import cv from "../../assets/imgs/artech_logo_blog.webp"
 
 const Home = () => {
   return (
@@ -38,7 +39,8 @@ const Home = () => {
             <h2 className="home_title_top_five">Test and Refine</h2>
             <p className="home_paragraph p_special_margin_five">Share your logo design with a small group of trusted individuals, including team members and potential customers. Gather feedback to see if the logo resonates with them and aligns with your brand’s goals.</p>
             <p className="home_paragraph p_with_special_margin_six">Great designs often go through multiple revisions. Don’t be afraid to tweak and refine your logo until it feels perfect. Remember, this is an investment in your brand’s future.</p>
-
+            
+            <div className="home_image_continer"></div>
 
             <h2 className="home_title_top_five">Examples of Effective Logos</h2>
             <div className="home_examples_paragraph h2_with_special_margin_four"><p><span>Coca-Cola:</span>The timeless script font and red color convey a sense of tradition and joy.</p></div>
